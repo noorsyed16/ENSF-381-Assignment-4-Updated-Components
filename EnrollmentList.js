@@ -42,6 +42,7 @@ function EnrollmentList({enrolledCourses, setEnrolledCourses}){
         
 
         for(let i = 0; i < enrolledCourses.length; i++){
+            //here we changed the variable to be called course instead of id as that is what lead to the orginal confusion
             let course = enrolledCourses[i]
             //enrolledHoursCount += courses[id].creditHours;
             coursesToRender.push(
